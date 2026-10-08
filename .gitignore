@@ -1,0 +1,37 @@
+# Local build caches and downloaded Gradle dependencies/distributions
+.gradle/
+.gradle-home/
+.kotlin/
+
+# Android SDK/emulator state and native build intermediates
+.android/
+.cxx/
+.externalNativeBuild/
+
+# Build outputs, reports, and Android Studio exports
+build/
+out/
+dist/
+/app/debug/
+/app/release/
+captures/
+*.apk
+*.aab
+*.ap_
+*.aar
+*.class
+*.dex
+*.hprof
+*.jar
+# The wrapper bootstrap is required to build a fresh checkout.
+!/gradle/wrapper/gradle-wrapper.jar
+
+# Machine-specific IDE configuration and signing keys
+.idea/
+local.properties
+*.iml
+*.jks
+*.keystore
+
+# macOS metadata
+.DS_Store
